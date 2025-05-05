@@ -1,0 +1,88 @@
+.flight-details-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.payment1 {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.booking-detail-box {
+    padding: 30px;
+}
+
+.detail-grid {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.detail-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.detail-item {
+    margin-bottom: 25px;
+}
+
+.detail-label {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.detail-value {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pass-details {
+    margin-top: 20px;
+}
+
+.pass-details-title {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.separator-line {
+    border: 0;
+    height: 1px;
+    background-color: #eee;
+    margin: 30px 0;
+}
+
+.booking-flight-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .detail-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .detail-column {
+        min-width: 100%;
+    }
+    
+    .booking-detail-box {
+        padding: 20px;
+    }
+    
+    .detail-item {
+        margin-bottom: 20px;
+    }
+}

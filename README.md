@@ -44,7 +44,6 @@ Vimaan Go is a modern and intuitive MERN (MongoDB, Express, React, Node.js) stac
 - Node.js with Express.js
 - MongoDB for database
 - JWT for authentication
-- Razorpay for payment gateway integration
 - Multer for file uploads
 
 ---
